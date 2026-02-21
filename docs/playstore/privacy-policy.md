@@ -4,7 +4,7 @@
 **Last Updated:** February 21, 2026
 **App Name:** TouchPC - Remote Control
 **Package Name:** com.touchpc.remotecontrol
-**Developer Contact:** placeholder@example.com
+**Developer Contact:** patriciomartinmendez@gmail.com
 
 ---
 
@@ -111,7 +111,7 @@ Since the App does not collect any personal data, there is no personal data to a
 
 If you have any questions or concerns about this Privacy Policy or the App's data practices, please contact us at:
 
-**Email:** placeholder@example.com
+**Email:** patriciomartinmendez@gmail.com
 
 ---
 
