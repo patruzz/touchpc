@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/connectionFragment">
+
+    <fragment
+        android:id="@+id/connectionFragment"
+        android:name="com.touchpc.remotecontrol.ui.connection.ConnectionFragment"
+        android:label="@string/connection_title"
+        tools:layout="@layout/fragment_connection">
+
+        <action
+            android:id="@+id/action_connection_to_touchpad"
+            app:destination="@id/touchpadFragment"
+            app:popUpTo="@id/connectionFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/touchpadFragment"
+        android:name="com.touchpc.remotecontrol.ui.touchpad.TouchpadFragment"
+        android:label="@string/nav_touchpad"
+        tools:layout="@layout/fragment_touchpad" />
+
+    <fragment
+        android:id="@+id/keyboardFragment"
+        android:name="com.touchpc.remotecontrol.ui.keyboard.KeyboardFragment"
+        android:label="@string/nav_keyboard"
+        tools:layout="@layout/fragment_keyboard" />
+
+    <fragment
+        android:id="@+id/shortcutsFragment"
+        android:name="com.touchpc.remotecontrol.ui.shortcuts.ShortcutsFragment"
+        android:label="@string/nav_shortcuts"
+        tools:layout="@layout/fragment_shortcuts" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.touchpc.remotecontrol.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TouchPC</string>
+
+    <!-- Navigation -->
+    <string name="nav_touchpad">Touchpad</string>
+    <string name="nav_keyboard">Keyboard</string>
+    <string name="nav_shortcuts">Shortcuts</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Connection -->
+    <string name="connection_title">Connect to PC</string>
+    <string name="discovered_servers">Discovered Servers</string>
+    <string name="manual_connection">Manual Connection</string>
+    <string name="server_history">Recent Servers</string>
+    <string name="ip_address_hint">IP Address (e.g., 192.168.1.100)</string>
+    <string name="port_hint">Port (default: 9876)</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="reconnecting">Reconnecting...</string>
+    <string name="scanning">Scanning for servers...</string>
+    <string name="no_servers_found">No servers found</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin_hint">PIN</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- Touchpad -->
+    <string name="touchpad_title">Touchpad</string>
+    <string name="left_click">Left</string>
+    <string name="right_click">Right</string>
+    <string name="middle_click">Middle</string>
+    <string name="not_connected">Not connected to any server</string>
+
+    <!-- Keyboard -->
+    <string name="keyboard_title">Keyboard</string>
+    <string name="text_input_hint">Type text here...</string>
+    <string name="tab_qwerty">QWERTY</string>
+    <string name="tab_fkeys">F-Keys</string>
+    <string name="tab_numpad">Numpad</string>
+    <string name="send_text">Send</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcuts_title">Shortcuts</string>
+    <string name="add_shortcut">Add Shortcut</string>
+    <string name="edit_shortcut">Edit Shortcut</string>
+    <string name="shortcut_name_hint">Shortcut Name</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="record_keys">Record Keys</string>
+    <string name="recording">Recording...</string>
+    <string name="tap_to_record">Tap to record key combination</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="mouse_settings">Mouse Settings</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="tap_to_click">Tap to Click</string>
+    <string name="scroll_settings">Scroll Settings</string>
+    <string name="scroll_speed">Scroll Speed</string>
+    <string name="natural_scrolling">Natural Scrolling</string>
+    <string name="feedback_settings">Feedback</string>
+    <string name="vibration">Vibration</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="clear_history">Clear Server History</string>
+    <string name="history_cleared">Server history cleared</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Connection Status</string>
+    <string name="notification_channel_description">Shows the current connection status</string>
+    <string name="notification_connected">Connected to %s</string>
+    <string name="notification_connecting">Connecting to %s</string>
+    <string name="notification_disconnected">Disconnected</string>
+</resources>

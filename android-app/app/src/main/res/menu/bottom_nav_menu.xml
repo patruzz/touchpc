@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/touchpadFragment"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/nav_touchpad" />
+
+    <item
+        android:id="@+id/keyboardFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/nav_keyboard" />
+
+    <item
+        android:id="@+id/shortcutsFragment"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/nav_shortcuts" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/nav_settings" />
+
+</menu>

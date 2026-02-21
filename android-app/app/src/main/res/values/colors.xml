@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF1565C0</color>
+    <color name="primary_variant">#FF0D47A1</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="secondary">#FF26A69A</color>
+    <color name="secondary_variant">#FF00897B</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="background">#FFFAFAFA</color>
+    <color name="on_background">#FF212121</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="on_surface">#FF212121</color>
+    <color name="error">#FFD32F2F</color>
+    <color name="on_error">#FFFFFFFF</color>
+
+    <!-- Touchpad -->
+    <color name="touchpad_background">#FFF5F5F5</color>
+    <color name="touchpad_ripple">#33000000</color>
+    <color name="touchpad_border">#FFE0E0E0</color>
+
+    <!-- Keyboard -->
+    <color name="key_background">#FFE0E0E0</color>
+    <color name="key_pressed">#FFBDBDBD</color>
+    <color name="key_text">#FF212121</color>
+    <color name="key_modifier_active">#FF1565C0</color>
+    <color name="key_modifier_text">#FFFFFFFF</color>
+
+    <!-- Status -->
+    <color name="status_connected">#FF4CAF50</color>
+    <color name="status_disconnected">#FF9E9E9E</color>
+    <color name="status_error">#FFD32F2F</color>
+    <color name="status_connecting">#FFFFC107</color>
+</resources>

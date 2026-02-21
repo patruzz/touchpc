@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/default_margin">
+
+        <!-- Mouse Settings -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mouse_settings"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sensitivity" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sensitivity_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0.5"
+            android:valueTo="3.0"
+            android:stepSize="0.1"
+            android:value="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acceleration" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/acceleration_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0.0"
+            android:valueTo="2.0"
+            android:stepSize="0.1"
+            android:value="1.0" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/tap_to_click_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_click"
+            android:checked="true"
+            android:layout_marginBottom="@dimen/default_margin" />
+
+        <!-- Scroll Settings -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scroll_settings"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scroll_speed" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/scroll_speed_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0.5"
+            android:valueTo="3.0"
+            android:stepSize="0.1"
+            android:value="1.0" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/natural_scroll_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/natural_scrolling"
+            android:checked="false"
+            android:layout_marginBottom="@dimen/default_margin" />
+
+        <!-- Feedback -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_settings"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/vibration_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vibration"
+            android:checked="true"
+            android:layout_marginBottom="@dimen/default_margin" />
+
+        <!-- Appearance -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appearance"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theme" />
+
+        <RadioGroup
+            android:id="@+id/theme_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_system"
+                android:checked="true" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_light" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_dark" />
+
+        </RadioGroup>
+
+        <!-- About -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <TextView
+            android:id="@+id/version_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_history_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_history"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    </LinearLayout>
+
+</ScrollView>
